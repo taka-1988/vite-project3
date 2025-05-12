@@ -1,0 +1,37 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu .menutext {
+    font-size: 20px;
+    color: #333;
+}
+
+.menu .menubuttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu .qrbutton {
+    width: 60%;
+    height: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu .qrbutton:hover {
+    background-color: #45a049;
+}
+
+.menu .qrbutton:active {
+    background-color: #295b2b;
+}

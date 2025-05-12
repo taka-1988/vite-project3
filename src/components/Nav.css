@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(84, 113, 216);
+}
+
+.nav .navtitle {
+    font-size: 2rem;
+    color: white;
+    padding: 1rem;
+}
